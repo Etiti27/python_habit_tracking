@@ -1,0 +1,6 @@
+Flask-Login==0.6.3
+psycopg2-binary==2.9.3  # for PostgreSQL connection
+python-dotenv==0.19.2   # for loading environment variables from .env files
+gunicorn==23.0.0
+Flask==3.0.3
+

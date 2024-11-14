@@ -1,0 +1,61 @@
+body{
+color:red;
+font-family: Arial, sans-serif;
+margin: 20px;
+max-width: 600px;
+}
+h1{
+color: #red;
+}
+.habit-list{
+list-style-type: none;
+padding: 0;
+}
+.habit-item{
+margin: 10px 0;
+}
+.submit-btn{
+margin-top: 20px;
+padding: 10px 20px;
+background-color: red;
+color: red;
+border: none;
+cursor: pointer;
+}
+.submit-btn:hover{
+background-color: red;
+}
+
+.habit-item input[type="checkbox"]:checked ~ label{
+text-decoration: line-through;
+}
+.highlight{
+display:block;
+}
+.habit-form{
+display:none;
+}
+.linked{
+color:white;
+decoration:none;
+}
+a{
+decoration:none;
+}
+.center-me{
+text-align:center;
+decoration: underline;
+}
+
+.vl {
+  border-left: solid green;
+  height: 500px;
+
+
+
+  top: 0;
+}
+.hr{
+border-left: solid green;
+width: 500px;
+}

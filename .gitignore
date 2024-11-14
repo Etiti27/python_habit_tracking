@@ -1,0 +1,36 @@
+# Environment variables
+.env
+instance/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# SQLite databases
+*.sqlite3
+
+# Log files
+*.log
+
+# Media and static files
+/static/media/
+/uploads/
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Node dependencies and frontend builds
+node_modules/
+build/
+dist/
+~$velopment_phase.docx
