@@ -26,6 +26,7 @@ A Flask-based habit tracker application with PostgreSQL as the database. The app
    git clone https://github.com/Etiti27/python_habit_tracking.git
    
 2. **Create environment variables in the project directory: **
+   example ".env" file
    `````.env
    HOST=db 
    DB_NAME=python_project_second
