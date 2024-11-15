@@ -32,6 +32,10 @@ A Flask-based habit tracker application with PostgreSQL as the database. The app
    DB_NAME=python_project_second
    DB_USER=postgres
    DB_PASSWORD=Obinna27
+   SECRET_KEY=your_secret_key
+   DEBUG=True
+   
+
 
 3. **Run docker file with docker-compose**
    ```bash
