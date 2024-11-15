@@ -27,14 +27,14 @@ A Flask-based habit tracker application with PostgreSQL as the database. The app
    
 2. **Create environment variables in the project directory: **
    
-   HOST=db
+   HOST=db 
    DB_NAME=python_project_second
    DB_USER=postgres
    DB_PASSWORD=Obinna27
 
 3. **Run docker file with docker-compose**
-
-    docker-compose up --build
+   ```bash
+   docker-compose up --build
     
 4. **access point**
    http://0.0.0.0:3002/
@@ -51,5 +51,6 @@ A Flask-based habit tracker application with PostgreSQL as the database. The app
 
 6. **to run test suite**
    in the project directory, run the command
+   ```bash
    python3 test_script.py
 
