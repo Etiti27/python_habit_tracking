@@ -28,11 +28,9 @@ A Flask-based habit tracker application with PostgreSQL as the database. The app
 2. **Create environment variables in the project directory: **
    
    HOST=db
-   DB_NAME=python_project
+   DB_NAME=python_project_second
    DB_USER=postgres
    DB_PASSWORD=Obinna27
-   SECRET_KEY=your_secret_key
-   DEBUG=True
 
 3. **Run docker file with docker-compose**
 
@@ -50,3 +48,8 @@ A Flask-based habit tracker application with PostgreSQL as the database. The app
    GET /weekly_habit - Display weekly habits
    POST /add_weekly_habit - Add a new weekly habit
    POST /checkoff - Mark a habit as completed
+
+6. **to run test suite**
+   in the project directory, run the command
+   python3 test_script.py
+

@@ -16,8 +16,9 @@ services:
       POSTGRES_DB: ${DB_NAME}
       POSTGRES_USER: ${DB_USER}
       POSTGRES_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "5430:5432"  # Map the host port 5432 to the container port 5432
     volumes:
       - postgres_data:/var/lib/postgresql/data
-
 volumes:
   postgres_data:
